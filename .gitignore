@@ -1,0 +1,23 @@
+# ===== .gitignore 说明 =====
+# 这个文件告诉 Git："这些文件/文件夹不要跟踪"
+# # 开头是注释；* 是通配符；/ 结尾表示文件夹
+
+# --- 操作系统自动生成的垃圾文件 ---
+Thumbs.db        # Windows 缩略图缓存
+Desktop.ini      # Windows 文件夹配置
+.DS_Store        # macOS 垃圾文件
+
+# --- 编辑器和 IDE 配置 ---
+.vscode/
+.idea/
+
+# --- 临时文件和日志 ---
+*.tmp
+*.log
+*.bak
+temp/
+
+# --- 敏感信息（绝对不能提交到仓库）---
+.env             # 存放密码、API 密钥等
+*.key
+*.pem
